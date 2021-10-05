@@ -9,6 +9,11 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.highlights:hover {
+    color: white;
+}
+
 /* ASIDE */
 /* ALL THAT IS INSIDE */
 .aside {
@@ -16,6 +21,9 @@ body {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+    width: 18%;
+    height: calc(100vh - 12vh);
+    overflow: auto;
 }
 
 /* LOGO */
@@ -107,6 +115,7 @@ nav ul li {
 hr {
     margin: 10px 0;
 }
+
 /* MAIN */
 /* ALL THAT IS INSIDE */
 main {
@@ -123,7 +132,7 @@ main {
 }
 
 .top-content {
-    width: 100%;
+    width: 82%;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: row-reverse;
@@ -137,12 +146,16 @@ main {
 }
 
 .top-bottom a {
-    margin-right: 240px;
+    margin-right: 20px;
     padding: 15px 50px;
     color: white;
     border: solid 1px;
     border-radius: 30px;
     text-decoration: none;
+    transition: transform;
+}
+.top-bottom:hover {
+    transform: scale(1.1);
 }
 
 footer {
@@ -244,4 +257,13 @@ footer {
 
 .img-radius {
     border-radius: 50%;
+}
+
+/* FOOTER */
+/* ALL THAT IS INSIDE */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

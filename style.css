@@ -175,17 +175,17 @@ footer {
     font-size: 15px;
 }
 
-.recent-played {
+.recently-played {
     width: 98%;
     margin: auto;
 }
 
-.recent-played span {
+.recently-played span {
     font-size: 20px;
     color: white;
 }
 
-.box-played {
+.box-container {
     padding-top: 30px;
     display: flex;
     flex-wrap: wrap;
@@ -194,7 +194,10 @@ footer {
 .box {
     width: calc(100% / 6 - 20px);
     margin: 10px;
+}
 
+.box a {
+    text-decoration: none;
 }
 
 .box img {
@@ -215,4 +218,30 @@ footer {
 .box-text span {
     color: #a3a3a3;
     font-size: 15px;
+}
+
+.created-for {
+    width: 98%;
+    margin: 50px auto;
+}
+
+.first-span {
+    font-size: 20px;
+    color: white;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.second-span {
+    font-size: 13px;
+    color: #a3a3a3;
+}
+
+.most-popular {
+    width: 98%;
+    margin: 50px auto;
+}
+
+.img-radius {
+    border-radius: 50%;
 }

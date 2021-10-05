@@ -223,7 +223,33 @@ main {
     color: white;
 }
 
+.select li a {
+    position: relative;
+}
 
+.select li a:hover{
+    border-bottom: 3px solid #adff2f;
+}
+
+.select li a::after {
+    content: "";
+    background-color: #141922;
+    position: absolute;
+    bottom: -8px;
+    left: 0%;
+    height: 8px;
+    width: 20px;
+}
+
+.select li a strong::after {
+    content: "";
+    background-color: #141922;
+    position: absolute;
+    bottom: -8px;
+    right: 0%;
+    height: 8px;
+    width: 20px;
+}
 
 .box-text {
     text-align: center;
@@ -357,6 +383,25 @@ main {
     width: 15%;
     background-color: #a3a3a3;
     height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.pointer {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.time-line:hover {
+    width: 15%;
+    height: 100%;
+    background-color: rgb(2, 216, 2);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
 }
 
 .footer-timeline span {
@@ -382,6 +427,17 @@ main {
     width: 40%;
     background-color: #a3a3a3;
     height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.volume-line:hover {
+    background-color: rgb(2, 216, 2);
+    display: table;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
 }
 
 .right-footer i {

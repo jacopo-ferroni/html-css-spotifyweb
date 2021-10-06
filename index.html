@@ -15,19 +15,22 @@
         <div class="aside">
             <!-- LOGO SPOTIFY -->
             <div class="logo">
-                <a href="#"><img src="./spotify/img/logo.svg" alt=""></a>
+                <a class="no-view" href="#"><img src="./spotify/img/logo-small.svg" alt=""></a>
+            </div>
+            <div class="logo2">
+                <a class="view" href="#"><img src="./spotify/img/logo.svg" alt=""></a>
             </div>
             <!-- NAVIGATION ZONE -->
             <nav>
                 <ul>
                     <li>
-                        <a class="highlights" href="#"><img src="./spotify/img/home.svg" alt="">Home</a>
+                        <a class="highlights" href="#"><img class="mrg-20" src="./spotify/img/home.svg" alt=""><span class="no-view1">Home</span></a>
                     </li>
                     <li>
-                        <a class="highlights" href="#"><img src="./spotify/img/search.svg" alt="">Cerca</a>
+                        <a class="highlights" href="#"><img class="mrg-20" src="./spotify/img/search.svg" alt=""><span class="no-view1">Cerca</span></a>
                     </li>
                     <li>
-                        <a class="highlights" href="#"><img src="./spotify/img/libreria.svg" alt="">La tua libreria</a>
+                        <a class="highlights" href="#"><img class="mrg-20" src="./spotify/img/libreria.svg" alt=""><span class="no-view1">La tua libreria</span></a>
                     </li>
                 </ul>
             </nav>
@@ -64,9 +67,9 @@
                 </div>
 
                 <div class="container-second">
-                    <a class="highlights" href="#"><i class="far fa-arrow-alt-circle-down"></i><strong>Installa app</strong></a>
+                    <a class="highlights" href="#"><i class="far fa-arrow-alt-circle-down mrg-20"></i><strong class="no-view1">Installa app</strong></a>
                     <hr size="1">
-                    <a class="highlights" href="#"><img src="./spotify/img/profile.svg" alt="user"><strong class="user">John Doe</strong></a>
+                    <a class="highlights" href="#"><img class="mrg-20" src="./spotify/img/profile.svg" alt="user"><strong class="user no-view1">John Doe</strong></a>
                 </div>
             </div>
 
@@ -80,18 +83,18 @@
             </div>
 
             <div class="center-container">
-                <ul class="select">
-                    <li><a class="highlights" href="#"><strong>IN EVIDENZA</strong></a></li>
-                    <li><a class="highlights" href="#"><strong>PODCAST</strong></a></li>
-                    <li><a class="highlights" href="#"><strong>CLASSIFICHE</strong></a></li>
-                    <li><a class="highlights" href="#"><strong>GENERI E MOOD</strong></a></li>
-                    <li><a class="highlights" href="#"><strong>NUOVE USCITE</strong></a></li>
-                    <li><a class="highlights" href="#"><strong>SCOPRI</strong></a></li>
-                </ul>
+                <div class="content">
+                    <span><a class="highlights" href="#"><strong>IN EVIDENZA</strong></a></span>
+                    <span><a class="highlights" href="#"><strong>PODCAST</strong></a></span>
+                    <span><a class="highlights" href="#"><strong>CLASSIFICHE</strong></a></span>
+                    <span><a class="highlights" href="#"><strong>GENERI E MOOD</strong></a></span>
+                    <span><a class="highlights" href="#"><strong>NUOVE USCITE</strong></a></span>
+                    <span><a class="highlights" href="#"><strong>SCOPRI</strong></a></span>
+                </div>
             </div>
 
             <div class="recently-played">
-                <span><strong>Recently played</strong></span>
+                <span class="mrg-left"><strong>Recently played</strong></span>
 
                 <div class="box-container">
 
@@ -166,8 +169,8 @@
             </div>
 
             <div class="created-for">
-                <span class="first-span"><strong>Creato per John Doe</strong></span>
-                <span class="second-span">Più ascolti, più accurati saranno suggeriti</span>
+                <span class="first-span mrg-left"><strong>Creato per John Doe</strong></span>
+                <span class="second-span mrg-left">Più ascolti, più accurati saranno suggeriti</span>
 
                 <div class="box-container">
                     <div class="box">
@@ -193,8 +196,8 @@
             </div>
 
             <div class="most-popular">
-                <span class="first-span"><strong>Artisti più popolari</strong></span>
-                <span class="second-span">Più ascolti, più accurati saranno suggeriti</span>
+                <span class="first-span mrg-left"><strong>Artisti più popolari</strong></span>
+                <span class="second-span mrg-left">Più ascolti, più accurati saranno suggeriti</span>
 
                 <div class="box-container">
                     <div class="box">
@@ -228,8 +231,10 @@
                     <h4><a href="#">Sinister</a></h4>
                     <span><a class="highlights" href="#">Brano Nome</a></span>
                 </div>
-                <i class="far fa-heart highlights"></i>
-                <i class="far fa-folder highlights"></i>
+                <div class="icon-footer">
+                    <i class="far fa-heart highlights"></i>
+                    <i class="far fa-folder highlights"></i>
+                </div>
             </div>
     
             <div class="center-footer">
